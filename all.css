@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f1f9;
+}
+
+nav {
+    background-color: #fff;
+    padding: 10px;
+}
+
+.logo {
+    margin: 10px;
+}
+
+nav.navbar {
+    background-color: #ffffff;
+    /* White background for navbar */
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    /* Space between logo and nav items */
+    align-items: center;
+    /* Vertically align items */
+}
+
+.navtab {
+    list-style-type: none;
+    display: flex;
+    margin-left: auto;
+}
+
+.navitem {
+    margin-right: 20px;
+}
+
+.navlink {
+    color: #7a4c8b;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.navlink:hover {
+    background-color: #d3ad8d;
+}
+
+.navlink.active {
+    background-color: #a97cb6;
+    color: #ffffff;
+}
+
+.h1 {
+    text-align: center;
+    /* Center aligns the text */
+    color: black;
+    /* Sets the text color to black */
+    margin-top: 20px;
+    /* Sets the top margin to 20px */
+    font-family: Arial, sans-serif;
+    /* Changes the font to Arial */
+}

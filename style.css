@@ -1,0 +1,68 @@
+body {
+    background-color: whitesmoke
+}
+
+h4 {
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 150px;
+    align-items: center;
+    display: block;
+    text-align: center;
+}
+
+#loginform {
+    display: block;
+    text-align: center;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    border: 2px solid black;
+    background-color: lightgreen;
+    ;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 280px;
+    margin: 0 auto;
+    /* Sets the height of the border */
+}
+
+.nav {
+    display: flex;
+    justify-content: right;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    /* Aligns list items horizontally */
+    padding: 0;
+    margin: 0;
+}
+
+.nav li {
+    margin: 0 10px;
+    /* Space between items */
+}
+
+#home {
+    display: flex;
+    justify-content: space-around;
+    /* Distributes images evenly */
+    align-items: center;
+    /* Centers images vertically */
+    margin-top: 200px;
+}
+
+#home img {
+    margin-top: 200px;
+    max-width: 30%;
+    /* Adjusts the width of each image */
+    height: auto;
+    ;
+    /* Maintains aspect ratio */
+    margin: 10px;
+    /* Adds some space around images */
+}
